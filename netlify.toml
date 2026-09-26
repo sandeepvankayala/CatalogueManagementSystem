@@ -1,0 +1,12 @@
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+# Not strictly needed today (this app has no client-side router yet), but
+# harmless to have in place: it means a page refresh on any URL still serves
+# the app instead of a 404, which matters the moment routing is ever added.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

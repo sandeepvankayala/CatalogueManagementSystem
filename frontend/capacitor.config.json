@@ -1,0 +1,8 @@
+{
+  "appId": "com.anuradhaagencies.catalogue",
+  "appName": "Anuradha Agencies",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
