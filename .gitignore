@@ -1,13 +1,29 @@
-# Frontend
-frontend/node_modules/
-frontend/dist/
-frontend/.env
-frontend/android/
+# Environment variables
+.env
+.env.*
+*.env
 
-# Backend
-backend/shop-catalogue-backend/target/
+# Spring Boot secrets
+application.properties
+application-*.properties
 
-# OS / editor noise
-.DS_Store
-*.iml
+# Java
+target/
+*.class
+*.log
+
+# React / Node
+node_modules/
+dist/
+build/
+
+# IntelliJ
 .idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
