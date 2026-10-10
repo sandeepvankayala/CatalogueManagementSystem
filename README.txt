@@ -1,4 +1,4 @@
-SHOP CATALOGUE (ANURADHA AGENCIES) - FIXED BUILD
+SHOP CATALOGUE (ANURADHA AGENCIES) -
 =================================================
 
 Backend: Spring Boot 3.5.5 / Java 21 / MySQL / JPA-Hibernate / JWT
